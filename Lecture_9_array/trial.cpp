@@ -14,3 +14,4 @@ int main()
     cout << myNum << endl;
     return 0;
 }
+

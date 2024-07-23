@@ -22,8 +22,9 @@ void swapArr(int myArr[], int size)
 {
     int start = 0;
     int end = size - 1;
-    while (start <= end)
+    while (start < end)
     {
+        cout<<"Start : "<<start<<" End : " <<end<<endl;
         swap(myArr[start], myArr[end]);
         start++;
         end--;
@@ -39,8 +40,8 @@ void printArr(int myArr[], int size)
 }
 int main()
 {
-    int myArr[7] = {12, 23, 34, 45, 56, 67, 78};
-    swapArr(myArr, 7); // method for swap array
-    printArr(myArr, 7);
+    int myArr[8] = {12, 23, 34, 45, 56, 67, 78,11};
+    swapArr(myArr, 8); // method for swap array
+    printArr(myArr, 8);
     return 0;
 }

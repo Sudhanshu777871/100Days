@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// must be remember that when we pass array in function then array first element address is passed due to this we if modified the value of array in funtion then actual array is modifie but in variable it is passed by value so actaul variable is not modified
+// must be remember that when we pass array in function then array first element address is passed due to this we if modified the value of array in funtion then actual array is modified but in variable it is passed by value so actaul variable is not modified
 
 void myupdate(int myArr[], int mysize)
 {
